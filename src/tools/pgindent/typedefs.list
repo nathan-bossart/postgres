@@ -3060,6 +3060,7 @@ TableScanDesc
 TableScanDescData
 TableSpaceCacheEntry
 TableSpaceOpts
+TableToProcess
 TablespaceList
 TablespaceListCell
 TapeBlockTrailer
