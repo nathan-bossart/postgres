@@ -1,6 +1,6 @@
 # IMPORTANT: After updating this file, also run src/tools/generate_editorconfig.py
 
-*		whitespace=space-before-tab,trailing-space
+*		whitespace=space-before-tab,trailing-space,tabwidth=8
 *.[chly]	whitespace=space-before-tab,trailing-space,indent-with-non-tab,tabwidth=4
 *.cpp		whitespace=space-before-tab,trailing-space,indent-with-non-tab,tabwidth=4
 *.pl		whitespace=space-before-tab,trailing-space,tabwidth=4
