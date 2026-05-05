@@ -110,6 +110,7 @@ pg_spin_delay_impl(void)
 	__asm__ __volatile__(" rep; nop			\n");
 }
 #elif defined(_MSC_VER) && defined(_M_AMD64)
+#error should fail here
 #define PG_HAVE_SPIN_DELAY
 static __forceinline void
 pg_spin_delay_impl(void)
